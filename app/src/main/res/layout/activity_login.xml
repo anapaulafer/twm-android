@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginActivity"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="205dp"
+            android:layout_height="225dp"
+            android:layout_weight="-10"
+            android:background="#77FF5722"
+            android:src="@drawable/nike"
+            android:translationX="510dp"
+            android:translationY="0dp"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="205dp"
+            android:layout_height="225dp"
+            android:layout_weight="-10"
+
+
+            android:background="#51F44336"
+            android:src="@drawable/nike"
+            android:translationX="305dp"
+            android:translationY="225dp"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="205dp"
+            android:layout_height="225dp"
+            android:layout_weight="-10"
+
+
+            android:src="@drawable/nike"
+            android:translationX="-102dp"
+            android:translationY="225dp"
+            android:visibility="visible" />
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="205dp"
+            android:layout_height="225dp"
+            android:layout_weight="-10"
+            android:background="#709C27B0"
+            android:src="@drawable/nike"
+            android:translationX="-310dp"
+            android:translationY="0dp"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="47dp"
+            android:layout_height="37dp"
+            android:layout_weight="-10"
+
+            android:src="@drawable/botao"
+            android:translationX="-560dp"
+            android:translationY="200dp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="47dp"
+            android:layout_height="37dp"
+            android:layout_weight="-10"
+
+            android:src="@drawable/carrinho"
+            android:translationX="-185dp"
+            android:translationY="200dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/shoes"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:translationX="-1100dp"
+            android:translationY="450dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nome"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:translationX="-1825dp"
+            android:translationY="480dp"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:lineSpacingExtra="10sp"
+            android:text="@string/n1"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:translationX="-2150dp"
+            android:translationY="500dp"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:lineSpacingExtra="10sp"
+            android:text="@string/n2"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:translationX="-2790dp"
+            android:translationY="500dp"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/n3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:translationX="-3700dp"
+            android:translationY="500dp"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="@string/n4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:translationX="-4405dp"
+            android:translationY="500dp"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/n5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:translationX="-5120dp"
+            android:translationY="500dp"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:text="@string/n6"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:translationX="-5115dp"
+            android:translationY="500dp"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:text="@string/n7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:translationX="-5113dp"
+            android:translationY="500dp"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:text="@string/n8"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:translationX="-5463dp"
+            android:translationY="50dp"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:text="Home"
+        android:textStyle="bold"
+        android:translationX="100dp"
+        android:translationY="85dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:text="BUSCAR"
+        android:textStyle="bold"
+        android:translationX="-200dp"
+        android:translationY="-180dp"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:translationX="-200dp"
+        android:translationY="-345dp"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:text="CADASTRE-SE"
+        android:textStyle="bold"
+        android:translationX="-200dp"
+        android:translationY="-310dp"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:text="SOBRE"
+        android:textStyle="bold"
+        android:translationX="-100dp"
+        android:translationY="-175dp"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
